@@ -1,0 +1,10 @@
+{
+  "root": true,
+  "extends": [
+    "eslint-config-shape"
+  ],
+  "rules": {
+    "camelcase": ["error", { "properties": "never" }],
+    "no-console": "off"
+  }
+}
