@@ -85,6 +85,11 @@ const prompts = require('prompts');
 
   Object.assign(options, await prompts(promptsConfig));
 
+  if (options.githubAccessToken == null || options.gitlabAccessToken == null) {
+    // the user cancelled the input prompt with Ctrl-C or Ctrl-D
+    throw new Error('Access tokens not supplied.');
+  }
+
   const octokit = new Octokit({
     auth: options.githubAccessToken,
     baseUrl: options.githubUrl,
