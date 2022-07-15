@@ -1,6 +1,6 @@
 {
   "name": "gist-migrator",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "migrate GitHub gists to GitLab snippets",
   "author": "Shape Security",
   "license": "Apache-2.0",
