@@ -4,6 +4,9 @@
   "description": "migrate GitHub gists to GitLab snippets",
   "author": "Shape Security",
   "license": "Apache-2.0",
+  "bin": {
+    "gist-migrator": "migrate.js"
+  },
   "main": "migrate.js",
   "scripts": {
     "build": "exit 0",
