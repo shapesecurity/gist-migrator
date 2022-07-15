@@ -11,9 +11,9 @@ runs, gists that have already been migrated will not be migrated again.
 
 ## Usage
 
-Just run `npx gist-migrator` and follow the prompts. Use the default API URLs
-to migrate gists from the public GitHub instance (github.com) to the public
-GitLab instance (gitlab.com).
+Just run `npx gist-migrator@latest` and follow the prompts. Use the default API
+URLs to migrate gists from the public GitHub instance (github.com) to the
+public GitLab instance (gitlab.com).
 
 GitHub personal access tokens can be created at https://github.com/settings/tokens
 
