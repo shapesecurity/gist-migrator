@@ -190,7 +190,7 @@ function generateSnippetDescription(gist) {
 }
 
 function generateSnippetVisibility(gist) {
-  return gist.public ? 'internal' : 'private';
+  return gist.public ? 'public' : 'private';
 }
 
 function equivalent(gist, snippet) {
